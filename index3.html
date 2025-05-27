@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    nav {
+      background-color: #10101b;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: rgb(76, 15, 161);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .header {
+      text-align: center;
+      padding: 40px;
+      background-color: #6c29ca;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: white;
+    }
+    .header p {
+      color: #ccc;
+      font-size: 18px;
+    }
+    .wrapper {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+    .profile img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 50%;
+      margin-right: 40px;
+    }
+    .intro {
+      max-width: 600px;
+    }
+    section {
+      padding: 20px;
+    }
+    .projects .project {
+      margin-top: 20px;
+    }
+    .project img {
+      max-width: 200px;
+      display: block;
+    }
+    .project-title {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0e0101;
+      color: white;
+    }
+    .resume-section {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+    .resume-section a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Header Section -->
+  <section id="home" class="header">
+    <h1>MOHAMMED ARSH V</h1>
+    <p>Turning Data into Insightful Stories</p>
+  </section>
+
+  <!-- About Section -->
+  <div class="wrapper">
+    <div class="profile">
+      <img src="c:\Users\mdvav\Downloads\arsh_photo.jpg" alt="Profile Picture" />
+    </div>
+    <div class="intro">
+      <h2>ABOUT ME</h2>
+      <p>Hello, I am a passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy building responsive, user-friendly websites and continuously improving my skills.
+        I am always eager to learn new technologies and take on creative challenges to deliver clean, efficient, and modern web solutions.</p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Data Analysis</li>
+      <li>Machine Learning</li>
+      <li>Python & R Programming</li>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>SQL & Database Management</li>
+      <li>Problem Solving</li>
+      <li>Team Collaboration</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="c:\Users\mdvav\Downloads\uber data analysis.jpg" alt="Uber Data Analysis Project" />
+      <div class="project-title">Uber Data Analysis</div>
+      <div class="project-description">
+        An in-depth exploration of Uber ride data using R to uncover travel trends, demand peaks, and geographical patterns.
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <address>
+      <p>Email: <a href="mailto:vavoor.arsh@gmail.com">vavoor.arsh@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919944336564">9944336564</a></p>
+    </address>
+  </section>
+
+  <!-- Resume Download -->
+  <div class="resume-section">
+    <h2>Resume</h2>
+    <p>Download my resume to learn more about my education, experience, and skills.</p>
+    <a href="c:\Users\mdvav\Downloads\arsh cv file.jpg" download>Download Resume (PDF)</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
